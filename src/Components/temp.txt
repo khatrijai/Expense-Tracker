@@ -1,0 +1,1 @@
+    const element=props.records.map((record)=>{return(<div><p className="transaction-record-text"> record.text</p> <p className="transaction-record-amount"> record.amount</p></div> )})
